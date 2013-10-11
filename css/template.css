@@ -1,0 +1,837 @@
+* {
+margin: 0;
+}
+html {
+min-width: 1070px;
+height: 100%;
+}
+body {
+min-width: 1070px;
+height: 100%;
+background: url(/avatarax/templates/myja/images/gr_center.png) repeat;
+}
+
+/* только для Internet Explorer */
+@font-face {
+font-family: micron55;
+src: url(/avatarax/templates/myja/font/micron55.eot);
+}
+/* далее для всех остальных браузеров */
+@font-face {
+font-family: micron56;
+src: local("micron56"),
+local("micron 56"),
+url(/avatarax/templates/myja/font/micron56.ttf) format("opentype");
+}
+a {
+text-decoration: none;
+}
+.menu li{
+display: block;
+width: 300px;
+height: 24px;
+margin-left: -40px;
+margin-top: 8px;
+padding-left: 56px;
+padding-top: 6px;
+font-family: micron56, micron55, tahoma, san-serif;
+font-size: 12px;
+letter-spacing: -2px;
+background: url(/avatarax/templates/myja/images/bg_menu_el_1.png) no-repeat;
+}
+.menu a{
+color: #000;
+text-decoration: none;
+}
+.menu a:hover{
+color: #666;
+text-decoration: none;
+}
+#bg_top{
+width:100%;
+height:150px;
+background: url(/avatarax/templates/myja/images/bg_top.png) repeat-x;
+
+position: relative;
+z-index: 10;
+}
+#t_1 {
+width: 766px;
+height: 69px;
+margin-left: auto;
+margin-right: auto;
+background: url(/avatarax/templates/myja/images/bg_top_l1.png) no-repeat;
+}
+#t_2 {
+width: 1070px;
+height: 81px;
+margin-left: auto;
+margin-right: auto;
+}
+#t_l {
+width: 35px;
+height: 81px;
+float: left;
+}
+#t_l_t {
+width: 100%;
+height: 20px;
+margin-top: -6px;
+background: url(/avatarax/templates/myja/images/bg_top_left.png) no-repeat;
+}
+#t_l_c {
+width: 100%;
+height: 66px;
+background: url(/avatarax/templates/myja/images/bg_center_left.png) no-repeat;
+}
+#t_c {
+width: 998px;
+height: 80px;
+float: left;
+border-left: 1px solid #975600;
+border-top: 1px solid #975600;
+border-right: 1px solid #975600;
+background-color: #fff;
+}
+#t_c_t {
+width: 100%;
+height: 20px;
+margin-top: -6px;
+background: url(/avatarax/templates/myja/images/bg_top_center.png) no-repeat;
+}
+#t_c_c {
+width: 100%;
+height: 66px;
+}
+#t_r {
+width: 35px;
+height: 80px;
+float: left;
+}
+#t_r_t {
+width: 100%;
+height: 20px;
+margin-top: -6px;
+background: url(/avatarax/templates/myja/images/bg_top_right.png) no-repeat;
+}
+#t_r_c {
+width: 100%;
+height: 66px;
+background: url(/avatarax/templates/myja/images/bg_center_right.png) no-repeat;
+}
+.clear {
+clear: both;
+}
+#marg {
+width: 100%;
+height: 300px;
+}
+#c_content {
+width: 1070px;
+min-height: 100%;
+margin-left: auto;
+margin-right: auto;
+background-color: #ffffff;
+margin-top: -300px;
+
+position: relative;
+}
+#left_center_block {
+width: 35px;
+height: auto;
+background: url(/avatarax/templates/myja/images/bg_absolute_left.png) repeat-y;
+border-right: 1px solid #975600;
+
+position: absolute;
+top: 299px;
+left: 0;
+bottom: 0;
+z-index: 10;
+}
+#abs_top_left {
+width: 35px;
+height: 202px;
+background: url(/avatarax/templates/myja/images/bg_absolute_left_top.png) no-repeat;
+}
+#abs_bottom_left {
+width: 35px;
+height: 207px;
+background: url(/avatarax/templates/myja/images/bg_absolute_left_bottom.png) no-repeat;
+
+position: absolute;
+bottom: 0;
+}
+#right_center_block {
+width: 35px;
+height: auto;
+background: url(/avatarax/templates/myja/images/bg_absolute_right.png) repeat-y;
+border-left: 1px solid #975600;
+
+position: absolute;
+top: 299px;
+right: 0;
+bottom: 0;
+z-index: 10;
+}
+#abs_top_right {
+width: 35px;
+height: 194px;
+background: url(/avatarax/templates/myja/images/bg_absolute_right_top.png) no-repeat;
+}
+#abs_bottom_right {
+width: 35px;
+height: 204px;
+background: url(/avatarax/templates/myja/images/bg_absolute_right_bottom.png) no-repeat;
+
+position: absolute;
+bottom: 0;
+}
+#cont_center_block {
+width: 1000px;
+height: auto;
+background-color: #ffffff;
+margin-left: 35px;
+
+position: relative;
+}
+#absl {
+width: 300px;
+height: auto;
+background: url(/avatarax/templates/myja/images/bg_menu_block.png) repeat-y;
+
+position: absolute;
+top: 753px;
+left: 35px;
+bottom: -80px;
+z-index: 100;
+}
+#left_content_block {
+width: 300px;
+min-height: 750px;
+float: left;
+margin-top: -70px;
+margin-bottom: -70px;
+background: url(/avatarax/templates/myja/images/bg_menu_block2.png) no-repeat;
+
+position: relative;
+z-index: 100;
+}
+#logo {
+width: 300px;
+height: 100px;
+background: url(/avatarax/templates/myja/images/logo.png) no-repeat;
+
+position: relative;
+}
+#logo_text {
+width: 300px;
+height: 30px;
+font-family: micron56, tahoma, san-serif;
+color: #d4d4d4;
+font-size: 8px;
+padding-left: 90px;
+
+position: absolute;
+top: 64px;
+}
+#link_logo {
+display: block;
+width: 200px;
+height: 70px;
+
+position: absolute;
+top: 10px;
+left: 40px;
+}
+#menu {
+width: 300px;
+min-height: 300px;
+}
+#des {
+width: 300px;
+height: 350px;
+background: url(/avatarax/templates/myja/images/bg_menu_block3.png) no-repeat;
+
+position: relative;
+z-index: 300;
+}
+*:first-child+html #left_content_block {
+width: 300px;
+min-height: 500px;
+float: left;
+margin-top: 0px;
+margin-bottom: -70px;
+
+position: relative;
+z-index: 100;
+}
+#right_content_block {
+width: 678px;
+height: auto;
+float: left;
+margin-top: -60px;
+margin-bottom: -30px;
+
+position: relative;
+z-index: 100;
+}
+*:first-child+html #right_content_block {
+width: 690px;
+min-height: 500px;
+float: left;
+margin-top: 0px;
+margin-bottom: -70px;
+
+position: relative;
+z-index: 100;
+}
+#content_block_top {
+width: 678px;
+height: 29px;
+background: url(/avatarax/templates/myja/images/bg_content_block_top.png) no-repeat;
+
+position: absolute;
+top: 0;
+left: 0;
+z-index: 100;
+}
+#content_block_center {
+width: 662px;
+min-height: 100px;
+margin: 5px 10px 2px 6px;
+padding: 45px 0px 40px 0px;
+border-left: 2px solid #bec3c5;
+border-right: 3px groove #bec3c5;
+border-bottom: 3px groove #bec3c5;
+background: url(/avatarax/templates/myja/images/bg_content_block.png) repeat;
+
+position: relative;
+z-index: 2;
+}
+.decor {
+width: 210px;
+background: url(/avatarax/templates/myja/images/bg_101.png) repeat;
+
+position: absolute;
+top: 44px;
+bottom: 23px;
+left: 0px;
+z-index: 1;
+}
+#content_block_bottom {
+width: 678px;
+height: 29px;
+background: url(/avatarax/templates/myja/images/bg_content_block_bottom.png) no-repeat;
+
+position: absolute;
+bottom: 0;
+left: 0;
+z-index: 100;
+}
+.b_search {
+width: 662px;
+height: 40px;
+
+position: absolute;
+top: 4px;
+left: 0px;
+z-index: 2;
+}
+.b_bottom {
+width: 100%;
+height: 20px;
+background: url(/avatarax/templates/myja/images/bg_101.png) repeat;
+clear: both;
+
+position: absolute;
+bottom: 3px;
+left: 0;
+}
+.rez {
+width: auto;
+height: 40px;
+background: url(/avatarax/templates/myja/images/bg_101.png) repeat;
+
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+}
+#user1 {
+width: 450px;
+height: 40px;
+background: url(/avatarax/templates/myja/images/bg_content_block.png) repeat;
+
+position: absolute;
+top: 0;
+right: 0;
+z-index: 2;
+}
+.bg_100 {
+width: 40px;
+height: 40px;
+background: url(/avatarax/templates/myja/images/bg_100.png) no-repeat;
+
+position: absolute;
+top: 0;
+left: 0px;
+}
+.bg_101 {
+width: 410px;
+height: 12px;
+background: url(/avatarax/templates/myja/images/bg_101.png) repeat-x;
+
+position: absolute;
+top: 0;
+right: 0;
+}
+
+
+
+
+
+
+.button {
+width: 23px;
+height: 23px;
+margin-bottom: -6px;
+}
+.moduletable_my {
+width: 400px;
+height: 30px;
+
+position: absolute;
+top: 16px;
+right: 8px;
+z-index: 100;
+}
+.search_my {
+
+}
+.form-inline {
+
+}
+#mod-search-searchword {
+width: 400px;
+height: 20px;
+border-left: 1px solid #e3e3eb;
+border-top: 1px solid #e3e3eb;
+border-right: 2px solid #e3e3eb;
+border-bottom: 2px solid #e3e3eb;
+font-size: 12px;
+color: #999;
+}
+#roksearch_search_str {
+width: 380px;
+height: 14px;
+border-left: 1px solid #e3e3eb;
+border-top: 1px solid #e3e3eb;
+border-right: 2px solid #e3e3eb;
+border-bottom: 2px solid #e3e3eb;
+font-size: 12px;
+color: #999;
+}
+#rokajaxsearch_tmp {
+width: 400px;
+}
+
+
+
+.block_slider {
+width: 656px;
+height: auto;
+padding: 3px;
+margin-top: 10px;
+background: url(/avatarax/templates/myja/images/bg_102.png) repeat;
+
+position: relative;
+z-index: 100;
+}
+#slider {
+margin: 0px;
+padding: 3px;
+border-left: 1px solid #e3e3eb;
+border-top: 1px solid #e3e3eb;
+border-right: 2px solid #e3e3eb;
+border-bottom: 2px solid #e3e3eb;
+}
+#bg_bottom {
+width: 100%;
+height:150px;
+background: url(/avatarax/templates/myja/images/bg_bottom.png) repeat-x;
+
+position: relative;
+z-index: 10;
+}
+#b_1 {
+width: 1070px;
+height: 80px;
+margin-left: auto;
+margin-right: auto;
+}
+#b_l {
+width: 35px;
+height: 80px;
+float: left;
+}
+#b_l_c {
+width: 100%;
+height: 66px;
+background: url(/avatarax/templates/myja/images/bg_bottom_center_left.png) no-repeat;
+}
+#b_l_b {
+width: 100%;
+height: 24px;
+background: url(/avatarax/templates/myja/images/bg_bottom_left.png) no-repeat;
+}
+#b_c {
+width: 998px;
+height: 79px;
+float: left;
+border-left: 1px solid #975600;
+border-bottom: 1px solid #975600;
+border-right: 1px solid #975600;
+background-color: #ffffff;
+}
+#b_c_c {
+width: 100%;
+height: 67px;
+
+position: relative;
+}
+#b_c_b {
+width: 100%;
+height: 24px;
+background: url(/avatarax/templates/myja/images/bg_bottom_center.png) no-repeat;
+
+position: relative;
+z-index: 101;
+}
+#b_r {
+width: 35px;
+height: 80px;
+float: left;
+}
+#b_r_c {
+width: 100%;
+height: 66px;
+background: url(/avatarax/templates/myja/images/bg_bottom_center_right.png) no-repeat;
+}
+#b_r_b {
+width: 100%;
+height: 24px;
+background: url(/avatarax/templates/myja/images/bg_bottom_right.png) no-repeat;
+}
+#b_2 {
+width: 766px;
+height: 70px;
+margin-left: auto;
+margin-right: auto;
+background: url(/avatarax/templates/myja/images/bg_top_l1.png) no-repeat;
+}
+#copiright {
+width: 700px;
+height: 11px;
+line-height: 50%;
+color: #333;
+font-family: tahoma, san-serif, arial;
+font-size: 12px;
+text-align: right;
+padding-top: 20px;
+padding-right: 15px;
+
+position: absolute;
+bottom: 0;
+right: 0;
+}
+.sch_css {
+width: 88px;
+height: 31px;
+
+position: absolute;
+top: 0;
+left: 250px;
+}
+.sch_xhtml {
+width: 88px;
+height: 31px;
+
+position: absolute;
+top: 0;
+left: 150px;
+}
+a.copiright {
+color: #000;
+text-decoration: none;
+font-family: tahoma, san-serif, arial;
+font-size: 11px;
+font-weight: normal;
+}
+a:hover.copiright {
+color: #666;
+text-decoration: none;
+}
+.ie_err {
+width: 800px;
+height: 200px;
+padding: 5px 5px 5px 5px;
+clear:  both;
+margin: -100px 0 0 -400px;;
+
+position: absolute;
+top: 50%;
+left: 50%;
+z-index: 900;
+}
+.ie_err p {
+width: 100%;
+text-align: center;
+color: red;
+font-size: 20px;
+}
+.ie_err span {
+display: block;
+width: 800px;
+height: 100px;
+text-align: justify;
+color: #666;
+font-size: 16px;
+padding: 30px 2px 0 2px;
+margin: 0 auto 0 auto;
+}
+a.close {
+display: none;
+}
+.alert {
+width: 100%;
+margin-top: 30px;
+text-align: center;
+}
+.alert-heading {
+color: red;
+font-size: 16px;
+font-weight: bold;
+font-family: micron56, tahoma, san-serif;
+}
+.alert  p {
+color: #b94e31;
+font-family: tahoma, tahoma, san-serif;
+font-size: 14px;
+margin-top: 10px;
+}
+.login {
+width: 100%;
+margin-top: 50px;
+}
+.well .required {
+display: block;
+width: 70px;
+color: #999;
+font-family: micron56, tahoma, san-serif;
+font-size: 12px;
+margin: 2px;
+margin-top: 5px;
+}
+span.star {
+display: none;
+}
+.well .control-group {
+clear: both;
+}
+.well .control-label {
+width: 70px;
+height: 20px;
+padding: 0 0 0px 0;
+float: left;
+margin-right: 20px;
+}
+.well .controls {
+height: 40px;
+width: 300px;
+}
+.well {
+border: 0 !important;
+}
+.well .validate-username {
+width: 150px;
+font-family: tahoma, tahoma, san-serif;
+font-weight: bold;
+font-size: 14px;
+color: #c41915;
+box-shadow: 2px 2px 2px #666;
+}
+.well .validate-password {
+width: 150px;
+font-family: tahoma, tahoma, san-serif;
+font-weight: bold;
+font-size: 14px;
+color: #c41915;
+box-shadow: 2px 2px 2px #666;
+}
+.well .btn {
+box-shadow: 2px 2px 2px #666;
+font-family: micron56, tahoma, san-serif;
+color: #999;
+font-size: 12px;
+width: 70px;
+height: 20px;
+border: 0;
+margin-top: 5px;
+}
+.inputbox {
+box-shadow: 2px 2px 2px #666;
+}
+.nav-tabs li {
+display: block;
+margin: 10px 0 10px 0;
+}
+.nav-tabs a {
+color: #666;
+font-family: micron56, tahoma, san-serif;
+font-size: 10px;
+border: 0;
+margin-left: -30px;
+}
+.reset p {
+color: #999;
+font-family: tahoma, tahoma, san-serif;
+font-size: 14px;
+margin: 30px 10px 10px 10px;
+text-align: justify;
+}
+fieldset {
+border: 0;
+}
+.reset .required {
+display: block;
+width: 300px;
+color: #999;
+font-family: micron56, tahoma, san-serif;
+font-size: 12px;
+margin: 2px;
+margin-top: 5px;
+}
+.reset .validate-username {
+width: 240px;
+font-family: tahoma, tahoma, san-serif;
+font-weight: bold;
+font-size: 14px;
+color: #c41915;
+box-shadow: 2px 2px 2px #666;
+}
+.reset .btn {
+box-shadow: 2px 2px 2px #666;
+font-family: micron56, tahoma, san-serif;
+color: #999;
+font-size: 12px;
+width: 110px;
+height: 20px;
+border: 0;
+margin: 5px 0 0 14px;
+}
+.remind .required {
+display: block;
+width: 300px;
+color: #999;
+font-family: micron56, tahoma, san-serif;
+font-size: 12px;
+margin: 2px;
+margin-top: 5px;
+}
+.remind #jform_email {
+width: 240px;
+font-family: tahoma, tahoma, san-serif;
+font-weight: bold;
+font-size: 14px;
+color: #c41915;
+box-shadow: 2px 2px 2px #666;
+}
+.remind .btn {
+box-shadow: 2px 2px 2px #666;
+font-family: micron56, tahoma, san-serif;
+color: #999;
+font-size: 12px;
+width: 110px;
+height: 20px;
+border: 0;
+margin: 5px 0 0 14px;
+}
+.remind p{
+color: #999;
+font-family: tahoma, tahoma, san-serif;
+font-size: 14px;
+margin: 30px 10px 10px 10px;
+text-align: justify;
+}
+.registration legend {
+font-family: micron56, tahoma, san-serif;
+font-weight: bold;
+font-size: 12px;
+color: #666;
+margin-top: 20px;
+}
+#jform_spacer-lbl {
+display: none;
+}
+.registration .control-label {
+width: 70px;
+height: 20px;
+padding: 0 0 0px 0;
+margin-right: 20px;
+}
+.registration .hasTooltip {
+display: block;
+width: 400px;
+color: #999;
+font-family: micron56, tahoma, san-serif;
+font-size: 10px;
+margin: 3px;
+}
+.registration input {
+width: 240px;
+font-family: tahoma, tahoma, san-serif;
+font-weight: bold;
+font-size: 14px;
+color: #c41915;
+box-shadow: 2px 2px 2px #666;
+margin-bottom: 10px;
+}
+.registration .btn {
+box-shadow: 2px 2px 2px #666;
+font-family: micron56, tahoma, san-serif;
+color: #999;
+float: left;
+font-size: 12px;
+width: 140px;
+height: 20px;
+border: 0;
+margin: 5px 0 0 14px;
+cursor: pointer;
+}
+.registration a.btn {
+display: block;
+box-shadow: 2px 2px 2px #666;
+font-family: micron56, tahoma, san-serif;
+color: #999;
+font-size: 12px;
+text-align: center;
+float: left;
+width: 80px;
+height: 20px;
+border: 0;
+margin: 5px 0 0 14px;
+line-height: 21px;
+}
+.registration {
+padding: 0 0 50px 0;
+}
+#content {
+width: 640px;
+margin: 30px auto 30px auto;
+border: 1px solid #999;
+background: url(/avatarax/templates/myja/images/background.png) repeat;
+padding: 2px 2px 20px 2px;
+
+position: relative;
+z-index: 100;
+}
